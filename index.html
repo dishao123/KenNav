@@ -2632,6 +2632,7 @@
         const buttonGrid = content.querySelector('.button-grid');
         buttonGrid.innerHTML = category.links.map(link => `
           <a href="${link.url}" 
+             target="_blank" 
              class="button" 
              data-id="${link.id}"
              data-category-id="${category.id}"
